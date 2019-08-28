@@ -26,4 +26,5 @@ Practical Advices:
 
 - Choosing the knot of basis is very important especially on the two parameters `skx` and `sky` and these should really come from the domain knowledge. 
 - The current algorithm works better if you use smaller basis `Bs` to cover larger anomaly. Using too large of basis could lead to a bad estimation of the exact shape.
-- Using two small basis is typically not very robust to noise. If you have very noisy image, consider using larger basis (fewer knots B-spline basis. )
+- Using small basis is typically not very robust to noise. If you have very noisy image, consider using larger basis (fewer knots B-spline basis. )
+
