@@ -28,3 +28,6 @@ Practical Advices:
 - The current algorithm works better if you use smaller basis `Bs` to cover larger anomaly. Using too large of basis could lead to a bad estimation of the exact shape.
 - Using small basis is typically not very robust to noise. If you have very noisy image, consider using larger basis (fewer knots B-spline basis. )
 
+
+Reference: 
+Yan, H., Paynabar, K., & Shi, J. (2017). Anomaly detection in images with smooth background via smooth-sparse decomposition. Technometrics, 59(1), 102-114.
